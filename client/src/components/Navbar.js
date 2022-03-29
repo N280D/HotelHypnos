@@ -5,7 +5,8 @@ function Navbar() {
     <div>
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
-          <img src="" alt="logo de l'hotel"/>
+          <img src="/logo.png" width="60" 
+          height="60" class="d-inclin"/>
         </a>
         <button
           class="navbar-toggler"
