@@ -20,3 +20,6 @@ code {
 .navbar-brand{
   color:black;
 }
+.navbar-nav{
+  margin-left: auto;
+}
