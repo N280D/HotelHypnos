@@ -3,9 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">
-          Navbar
+          <img src="" alt="logo de l'hotel"/>
         </a>
         <button
           class="navbar-toggler"
