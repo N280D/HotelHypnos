@@ -1,6 +1,5 @@
-const { type } = require('express/lib/response');
 const mongoose = require('mongoose');
-const { mongoose } = mongoose.Schema({
+const { roomSchema} = mongoose.Schema({
 
     Suite:{
         type:String,
@@ -21,6 +20,10 @@ const { mongoose } = mongoose.Schema({
     etablissement:{
         type:String,
         required:true
-    }
+    },
+    timesstamps:true,
 })
 
+const roomModel= mongoose.model('rooms',roomSchema)
+
+module.exports=roomModel
