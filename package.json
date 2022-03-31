@@ -18,6 +18,8 @@
   "homepage": "https://github.com/N280D/HotelHypnos#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "mongose": "0.0.2-security",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {},
