@@ -21,9 +21,10 @@ const roomSchema= mongoose.Schema({
         type:String,
         required:true
     }
-   
+},{
+    timestamps:true,
 })
 
-const roomModel= mongoose.model('Suite',roomSchema)
+const roomModel= mongoose.model('room',roomSchema)
 
 module.exports=roomModel
