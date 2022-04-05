@@ -26,5 +26,5 @@
   "devDependencies": {
     "kill-port": "^1.6.1"
   },
-  "description": ""
+  "proxy": "http://localhost:5000"
 }
