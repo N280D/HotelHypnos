@@ -2,14 +2,14 @@ const mongoose= require("mongoose");
 var mongoURL ='mongodb+srv://AdminHypnos:Missing12@cluster0.4keds.mongodb.net/hotelhypnos'
 
 
-mongoose.connect(mongoURL,{useUnifiedTopology:true , useNewUrlParser:true})
+mongoose.connect(mongonURL, {useUnifiedTopology:true , useNewUrlParser:true})
 
-var connection=mongoose.connection
+var connect=mongoose.connection
 
-connection.on('erreur', ()=>{
-    console.log('connexion à la base de donnee impossible')
+connect.on('error', ()=>{
+    console.log('connexion à la base de donnee impossible');
 })
-connection.on("connecte",()=>{
+connect.on('connected',()=>{
     console.log('Mongo Db Connexion reussie')
 })
 
